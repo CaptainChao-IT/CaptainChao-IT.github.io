@@ -21,6 +21,18 @@
     </header>
     <body>
         <nav class = "nav-box">
+            <div class="nav-box">
+                <div class="hamburger" onclick="document.querySelector('.hamburger').classList.toggle('active'); document.querySelector('.nav-bar').classList.toggle('active');">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-bar">
+                    <li class="nav-element"><a href="#">AIRLINE INFORMATIONS</a></li>
+                    <li class="nav-element"><a href="#">OUR FLEET</a></li>
+                    <li class="nav-element"><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
             <ul class = "nav-bar">
                 <li class = "nav-element"><a href="">OUR DESTINATIONS</a></li>
                 <li class = "nav-element dropdown">
